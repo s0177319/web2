@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0a3a6a;
+}
+
+.group {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.group.error {
+    border-color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.radio {
+    margin-right: 10px;
+}
+
+.messages {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #cce5ff;
+    border: 1px solid #99c2ff;
+    border-radius: 5px;
+}
+
+#send {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #0052a3;
+}
+
+.enter-exit {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.enter-exit:hover {
+    text-decoration: underline;
+}
